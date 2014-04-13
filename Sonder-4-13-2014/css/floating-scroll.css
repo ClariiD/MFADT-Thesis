@@ -1,0 +1,22 @@
+.floating-scroll-sticky {
+    z-index: 999;
+}
+.floating-scroll-sticky.floating-scroll-stick {
+    position: fixed !important;
+    top: 0;
+    z-index: 999;
+    border-bottom-color:#696969 !important;
+    transition: border-color .5s linear;
+	  -moz-transition: border-color .5s linear;    /* FF3.7+ */
+	  -o-transition: border-color .5s linear;      /* Opera 10.5 */
+	  -webkit-transition: border-color .5s linear; /* Saf3.2+, Chrome */
+}
+.floating-scroll-sticky.floating-scroll-stick.floating-scroll-stuck {
+    position: absolute !important;
+    top: auto;
+    bottom: 0;
+    z-index: 999;
+}
+.floating-scroll-bounding-box{
+	position:relative !important;
+}
